@@ -71,3 +71,17 @@ $title = $isHomepage ? $siteName : $pageName . ' : ' . $siteName;
     </header>
 
     <div class="l-content">
+      <ul class="menu-buttons">
+        <li class="buttons-items"><a class="buttons-items-link" target="_blank" href=" #">Grundlagen</a></li>
+        <li class="buttons-items"><a class="buttons-items-link" target="_blank" href=" #">Gesellschaft</a></li>
+        <li class="buttons-items"><a class="buttons-items-link" target="_blank" href=" #">Sprachen</a></li>
+        <li class="buttons-items"><a class="buttons-items-link" target="_blank" href=" #">Gestalten</a></li>
+        <li class="buttons-items"><a class="buttons-items-link" target="_blank" href=" #">Beruf</a></li>
+        <li class="buttons-items"><a class="buttons-items-link" target="_blank" href=" #">Kultur</a></li>
+        <li class="buttons-items"><a class="buttons-items-link" target="_blank" href=" #">Gemeinchaft</a></li>
+        <li class="buttons-items"><a class="buttons-items-link" target="_blank" href=" #">Natur</a></li>
+        <li class="buttons-items"><a class="buttons-items-link" target="_blank" href=" #">Gesundheit</a></li>
+        <li class="buttons-items"><a class="buttons-items-link" target="_blank" href=" #">Technik</a></li>
+      </ul>
+
+    </div>
