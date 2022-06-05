@@ -9,7 +9,7 @@ require('inc/header.php');
 
     <section class="l-categoryList">
         <div class="b-categoryList">
-            <p class="b-categoryList__texxt">Text</p>
+            <p class="b-categoryList__text">Text</p>
             <a class="b-categoryList__link" href="">Link</a>
         </div>
     </section>
