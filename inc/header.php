@@ -63,7 +63,7 @@ $title = $isHomepage ? $siteName : $pageName . ' : ' . $siteName;
         <nav class="l-mainNavigation">
           <ul class="b-mainNavigation">
             <li class="b-mainNavigation__item<?php echo ($uri == 'home') ? ' -state_active' : ''; ?>">
-              <a class="b-mainNavigation__link" href="index.html">Test Filatov programmer</a>
+              <a class="b-mainNavigation__link" href="index.html">Test Filatov programmer2</a>
             </li>
           </ul>
         </nav>
