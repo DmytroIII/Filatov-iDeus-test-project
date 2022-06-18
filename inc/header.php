@@ -35,40 +35,16 @@ $title = $isHomepage ? $siteName : $pageName . ' : ' . $siteName;
 <body class="l-body -page_<?php echo $uri; ?><?php echo (!$isHomepage) ? ' -page_inner' : ''; ?>">
 
   <div class="l-wrapper">
-
     <header class="l-siteHeader">
-      <div class="l-content">
-        <div class="b-siteHeader">
-          <div class="l-siteLogo">
-            <?php
-            $siteLogo__tag  = $isHomepage ? 'h1' : 'div';
-            $siteLogo__link = $isHomepage ? '' : ' href="index.html"';
-            ?>
-            <<?php echo $siteLogo__tag; ?> class="b-siteLogo" itemscope itemtype="http://schema.org/Organization">
-              <a class="b-siteLogo__link" <?php echo $siteLogo__link; ?> itemprop="url">
-                <img class="b-siteLogo__icon" src="assets/img/blocks/siteLogo/siteLogo-logo.png" alt="<?php echo $siteName; ?>" title="<?php echo $siteName; ?>" itemprop="logo" />
-              </a>
-            </<?php echo $siteLogo__tag; ?>>
-          </div>
+      <div class="b-siteHeader">
 
-          <div class="l-siteSearch">
-            <form class="b-siteSearch" role="search" method="post" action="#">
-              <label class="b-siteSearch__search">
-                <span class="b-siteSearch__label g-visuallyhidden">Search:</span>
-                <input class="b-siteSearch__input" type="search" name="s" spellcheck="true" />
-              </label>
+        <div class="l-siteLogo">
 
-              <input class="b-siteSearch__button" type="submit" value="Search" />
-            </form>
-          </div>
-
-          <nav class="l-mainNavigation">
-            <ul class="b-mainNavigation">
-              <li class="b-mainNavigation__item<?php echo ($uri == 'home') ? ' -state_active' : ''; ?>">
-                <a class="b-mainNavigation__link" href="index.html">Test Filatov programmer</a>
-              </li>
-            </ul>
-          </nav>
         </div>
+
+        <nav class="l-mainNavigation">
+
+        </nav>
       </div>
     </header>
+  </div>

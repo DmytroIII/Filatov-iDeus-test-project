@@ -2,7 +2,6 @@
  * @section categoryList
  */
 
-
 ul {
     list-style-type: none;
     padding: 0;
@@ -28,7 +27,7 @@ a {
 
 }
 .buttons-items:nth-child(5n) {
-    margin-right:0px;
+    margin-right:1px;
 }
 
 .buttons-items:nth-child(-n + 5) {

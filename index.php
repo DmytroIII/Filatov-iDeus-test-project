@@ -1,125 +1,109 @@
 <?php
 $pageName = 'Home';
-$siteName = '%siteName%';
+$siteName = 'Main - UPVHS';
 $uri      = 'home';
 require('inc/header.php');
 ?>
 
-<main class="l-contentText">
-    <div class="l-content">
-        <ul class="menu-buttons">
-            <li class="buttons-items">
-                <a class="buttons-items-link" target="_blank" href="#">
-                    <svg class="regular-customers-svg">
-                        <use href="assets/img/sprites/icons.svg#icon-facebook" width="28" height="28">
-                        </use>
-                    </svg>
-                    <p> Grundlagen</p>
-                </a>
-            </li>
-            <li class="buttons-items">
-                <a class="buttons-items-link" target="_blank" href="#">
-                    <svg class="regular-customers-svg">
-                        <use href="assets/img/sprites/icons.svg#icon-facebook" width="28" height="28">
-                        </use>
-                    </svg>
-                    <p>Gesellschaft</p>
-                </a>
-            </li>
-            <li class="buttons-items">
-                <a class="buttons-items-link" target="_blank" href="#">
-                    <svg class="regular-customers-svg">
-                        <use href="assets/img/sprites/icons.svg#icon-facebook" width="28" height="28">
-                        </use>
-                    </svg>
-                    <p>Sprachen</p>
-                </a>
-            </li>
-            <li class="buttons-items">
-                <a class="buttons-items-link" target="_blank" href="#">
-                    <svg class="regular-customers-svg">
-                        <use href="assets/img/sprites/icons.svg#icon-facebook" width="28" height="28">
-                        </use>
-                    </svg>
-                    <p>Gestalten</p>
-                </a>
-            </li>
-            <li class="buttons-items">
-                <a class="buttons-items-link" target="_blank" href="#">
-                    <svg class="regular-customers-svg">
-                        <use href="assets/img/sprites/icons.svg#icon-facebook" width="28" height="28">
-                        </use>
-                    </svg>
-                    <p>Beruf</p>
-                </a>
-            </li>
-            <li class="buttons-items">
-                <a class="buttons-items-link" target="_blank" href="#">
-                    <svg class="regular-customers-svg">
-                        <use href="assets/img/sprites/icons.svg#icon-facebook" width="28" height="28">
-                        </use>
-                    </svg>
-                    <p>Kultur</p>
-                </a>
-            </li>
-            <li class="buttons-items">
-                <a class="buttons-items-link" target="_blank" href="#">
+<div class="l-content">
+    <main class="l-contentText">
+        <section class="l-firstScreen">
+            <div class="b-firstScreen"></div>
+        </section>
 
-                    <svg class="regular-customers-svg">
-                        <use href="assets/img/sprites/icons.svg#icon-facebook" width="28" height="28">
-                        </use>
-                    </svg>
-                    <p>Gemeinchaft</p>
-                </a>
-            </li>
-            <li class="buttons-items">
-                <a class="buttons-items-link" target="_blank" href="#">
-                    <svg class="regular-customers-svg">
-                        <use href="assets/img/sprites/icons.svg#icon-facebook" width="28" height="28">
-                        </use>
-                    </svg>
-                    <p>Natur</p>
-                </a>
-            </li>
-            <li class="buttons-items">
-                <a class="buttons-items-link" target="_blank" href="#">
-                    <svg class="regular-customers-svg">
-                        <use href="assets/img/sprites/icons.svg#icon-facebook" width="28" height="28">
-                        </use>
-                    </svg>
-                    <p>Gesundheit</p>
-                </a>
-            </li>
-            <li class="buttons-items">
-                <a class="buttons-items-link" target="_blank" href="#">
-                    <svg class="regular-customers-svg">
-                        <use href="assets/img/sprites/icons.svg#icon-facebook" width="28" height="28">
-                        </use>
-                    </svg>
-                    <p>Technik</p>
-                </a>
-            </li>
-        </ul>
-    </div>
-    <div class="l-content">
-        <div class="b-developerCopyright">
-            <div class=" b-siteArticles">
-                <div class="b-siteLeftColumn">
-                    <h2>Kommende Veranstaltungen</h2>
-                    <ul class="b-siteTextArticles">
-                        <li>Der Kurs findet 2 × wöchentlich statt und erlaubt Ihnen in einem semi-intensiven Lerntempo voranzukommen. Nut...</li>
-                    </ul>
+        <div class="b-contentText">
+            <ul class="b-contentCategories">
+
+                <li class="b-contentCategories__list">
+                    <a href="#" class="b-contentCategories__link">
+                        <img class="b-contentCategories__img" src="assets/img/blocks/icons/atomic-structure-q.png" width="28" height="28" />
+                        <img class="b-contentCategories__imgHover" src="assets/img/blocks/icons/automic-structure-hover.png" width="28" height="28" />
+                        <span class="b-contentCategories__text">Grundlagen</span>
+                    </a>
+                </li>
+
+                <li class="b-contentCategories__list">
+                    <a href="#" class="b-contentCategories__link">
+                        <img class="b-contentCategories__img" src="assets/img/blocks/icons/group.png" width="28" height="28" />
+                        <img class="b-contentCategories__imgHover" src="assets/img/blocks/icons/group_hover.png" width="28" height="28" />
+                        <span class="b-contentCategories__text">Gesellschaft</span>
+                    </a>
+                </li>
+
+                <li class="b-contentCategories__list">
+                    <a href="#" class="b-contentCategories__link">
+                        <img class="b-contentCategories__img" src="assets/img/blocks/icons/group.png" width="28" height="28" />
+                        <img class="b-contentCategories__imgHover" src="assets/img/blocks/icons/group_hover.png" width="28" height="28" />
+                        <span class="b-contentCategories__text">Sprachen</span>
+                    </a>
+                </li>
+
+                <li class="b-contentCategories__list">
+                    <a href="#" class="b-contentCategories__link">
+                        <img class="b-contentCategories__img" src="assets/img/blocks/icons/group.png" width="28" height="28" />
+                        <img class="b-contentCategories__imgHover" src="assets/img/blocks/icons/group_hover.png" width="28" height="28" />
+                        <span class="b-contentCategories__text">Gestalten</span>
+                    </a>
+                </li>
+
+                <li class="b-contentCategories__list">
+                    <a href="#" class="b-contentCategories__link">
+                        <img class="b-contentCategories__img" src="assets/img/blocks/icons/group.png" width="28" height="28" />
+                        <img class="b-contentCategories__imgHover" src="assets/img/blocks/icons/group_hover.png" width="28" height="28" />
+                        <span class="b-contentCategories__text">Beruf</span>
+                    </a>
+                </li>
+
+                <li class="b-contentCategories__list">
+                    <a href="#" class="b-contentCategories__link">
+                        <img class="b-contentCategories__img" src="assets/img/blocks/icons/group.png" width="28" height="28" />
+                        <img class="b-contentCategories__imgHover" src="assets/img/blocks/icons/group_hover.png" width="28" height="28" />
+                        <span class="b-contentCategories__text">Kultur</span>
+                    </a>
+                </li>
+
+                <li class="b-contentCategories__list">
+                    <a href="#" class="b-contentCategories__link">
+                        <img class="b-contentCategories__img" src="assets/img/blocks/icons/group.png" width="28" height="28" />
+                        <img class="b-contentCategories__imgHover" src="assets/img/blocks/icons/group_hover.png" width="28" height="28" />
+                        <span class="b-contentCategories__text">Gemeinschaft</span>
+                    </a>
+                </li>
+
+                <li class="b-contentCategories__list">
+                    <a href="#" class="b-contentCategories__link">
+                        <img class="b-contentCategories__img" src="assets/img/blocks/icons/group.png" width="28" height="28" />
+                        <img class="b-contentCategories__imgHover" src="assets/img/blocks/icons/group_hover.png" width="28" height="28" />
+                        <span class="b-contentCategories__text">Natur</span>
+                    </a>
+                </li>
+
+                <li class="b-contentCategories__list">
+                    <a href="#" class="b-contentCategories__link">
+                        <img class="b-contentCategories__img" src="assets/img/blocks/icons/group.png" width="28" height="28" />
+                        <img class="b-contentCategories__imgHover" src="assets/img/blocks/icons/group_hover.png" width="28" height="28" />
+                        <span class="b-contentCategories__text">Gesundheit</span>
+                    </a>
+                </li>
+
+                <li class="b-contentCategories__list">
+                    <a href="#" class="b-contentCategories__link">
+                        <img class="b-contentCategories__img" src="assets/img/blocks/icons/group.png" width="28" height="28" />
+                        <img class="b-contentCategories__imgHover" src="assets/img/blocks/icons/group_hover.png" width="28" height="28" />
+                        <span class="b-contentCategories__text">Technik</span>
+                    </a>
+                </li>
+
+            </ul>
+
+            <div class="l-contentNews">
+                <div class="b-contentNews">
+                    <a href="" class="b-contentNews__link"></a>
+                    <a href="" class="b-contentNews__link"></a>
+
                 </div>
 
-                <div class="b-siteRightColumn">
-                    <h2>Mitteilungen</h2>
-                    <ul class="b-siteTextArticles">
-                        <li>Der Kurs findet 2 × wöchentlich statt und erlaubt Ihnen in einem semi-intensiven Lerntempo voranzukommen. Nut...</li>
-                    </ul>
-                </div>
             </div>
-        </div>
-    </div>
-</main>
-
+    </main>
+</div>
 <?php require('inc/footer.php'); ?>
