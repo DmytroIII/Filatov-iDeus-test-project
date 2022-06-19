@@ -11,23 +11,6 @@ require('inc/header.php');
             <div class="b-firstScreen"></div>
         </section>
 
-<<<<<<< HEAD
-
-    <ul class="item"></ul>
-
-    <ul class="item"></ul>
-    <ul class="item"></ul>
-    <ul class="item"></ul>
-    <ul class="item"></ul>
-    <ul class="item"></ul>
-    <ul class="item"></ul>
-    <ul class="item"></ul>
-    <ul class="item"></ul>
-
-    <div class="items"></div>
-</main>
-
-=======
         <div class="b-contentText">
             <ul class="b-contentCategories">
 
@@ -123,5 +106,4 @@ require('inc/header.php');
             </div>
     </main>
 </div>
->>>>>>> 226d46ab74e56e75a0fd1337e437bc579a4f9324
 <?php require('inc/footer.php'); ?>
