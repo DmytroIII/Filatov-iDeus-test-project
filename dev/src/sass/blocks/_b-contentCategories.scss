@@ -32,30 +32,37 @@
     border: none;
     }
 
-    &__img {
+
+
+
+    &__link &__img {
     position: absolute;
     opacity: 1;
     margin-left: 25px;
     margin-top: 26px;
     }
-    
-    &__img:hover {
-    position: absolute;
-    opacity: 0;
-    }
 
     &__link &__imgHover {
     position: absolute;
     opacity: 0;
+    margin-left: 25px;
+    margin-top: 26px;
     }
+
     
+    &__link:hover &__img {
+    position: absolute;
+    opacity: 0;
+    margin-left: 25px;
+    margin-top: 26px;
+    }
+
     &__link:hover &__imgHover {
     position: absolute;
     opacity: 1;
     margin-left: 25px;
     margin-top: 26px;
     }
-
 }
 
 
