@@ -2,9 +2,27 @@
  * @section developerCopyright
  */
 .b-developerCopyright {
-
+  display: flex;
+  padding: 90px 135px 139px 135px;
+  background-color: #F6F8FC;
+  
   &__link {
-    color: inherit;
+  color: inherit;
     @include hover-underline;
   }
 }
+
+
+.b-siteArticles {
+  display: flex;
+}
+
+.b-siteLeftColumn {
+  max-width: 550px;
+}
+
+.b-siteRightColumn {
+  max-width: 550px;
+}
+
+.b-siteTextArticles {}

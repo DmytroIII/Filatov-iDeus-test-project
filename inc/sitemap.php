@@ -1,5 +1,6 @@
 <!doctype html>
 <html class="l-html" lang="">
+
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -16,9 +17,14 @@
 
   <link rel="stylesheet" href="assets/css/sitemap.min.css" />
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,400,400italic,500,500italic,700,700italic,900,900italic|Roboto+Slab:100,300,400,700" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap">
 
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-  <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-3.6.0.min.js"><\/script>')</script>
+  <script>
+    window.jQuery || document.write('<script src="assets/js/vendor/jquery-3.6.0.min.js"><\/script>')
+  </script>
 
   <script>
     $(function() {
@@ -28,6 +34,7 @@
     });
   </script>
 </head>
+
 <body class="l-body -type_<?php echo $type; ?>">
   <!--[if lt IE 8]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
@@ -159,13 +166,13 @@
                     <td>
                       <a href="#" class="b-link">Roboto</a>
                     </td>
-                    <td>Normal 400 Italic,  Semi-Bold 600 Italic,  Light 300</td>
+                    <td>Normal 400 Italic, Semi-Bold 600 Italic, Light 300</td>
                   </tr>
                   <tr>
                     <td>
                       <a href="#" class="b-link">Roboto Slab</a>
                     </td>
-                    <td>Semi-Bold 600 Italic,  Light 300</td>
+                    <td>Semi-Bold 600 Italic, Light 300</td>
                   </tr>
                 </tbody>
               </table>
@@ -175,7 +182,8 @@
         </div>
 
       </main>
-    </div><!--content-->
+    </div>
+    <!--content-->
 
     <footer class="l-siteFooter">
       <div class="b-siteFooter">
@@ -189,6 +197,8 @@
       </div>
     </footer>
 
-  </div><!--wrapper-->
+  </div>
+  <!--wrapper-->
 </body>
+
 </html>
