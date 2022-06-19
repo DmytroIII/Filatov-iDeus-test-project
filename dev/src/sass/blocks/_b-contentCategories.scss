@@ -1,7 +1,11 @@
 
+
+
 .b-contentCategories {
     display: flex;
     flex-wrap: wrap;
+    @include wrapper-inner;
+
 
     &__text {
     margin-top: 28px;
@@ -10,7 +14,13 @@
 
     &__list {
     background-color: #F2FAFE;
+    margin-right: 20px;
+    margin-bottom: 20px;
     }
+
+    &__list:nth-child(5n) {
+        margin-right: 0px;
+     }
 
     &__link {
     display: flex;
@@ -29,7 +39,7 @@
     color: #FFFFFF;
     width: 218px;
     height: 80px;
-    border: none;
+    border-color: transparent;
     }
 
 

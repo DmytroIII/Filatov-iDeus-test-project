@@ -1,11 +1,10 @@
 /**
  * @section siteFooter
  */
-.l-siteFooter {
 
-}
 .b-siteFooter {
 width: 1440px;
 height: 307px;
-background-image: url(/assets/img/blocks/background-bottom.png);
+background-image: url(/assets/img/blocks/backgroundImage/footer_background.png);
+@include wrapper-inner;
 }
