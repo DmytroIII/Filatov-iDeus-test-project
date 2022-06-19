@@ -57,7 +57,7 @@ require('inc/header.php');
                 <li class="b-contentCategories__list">
                     <a href="#" class="b-contentCategories__link">
                         <img class="b-contentCategories__img" src="assets/img/blocks/icons/bank.png" width="28" height="28" />
-                        <img class="b-contentCategories__imgHover" src="assets/img/blocks/icons/bankHover.png" width="28" height="28" />
+                        <img class="b-contentCategories__imgHover" src="assets/img/blocks/icons/bunkhover.png" width="28" height="28" />
                         <span class="b-contentCategories__text">Kultur</span>
                     </a>
                 </li>
