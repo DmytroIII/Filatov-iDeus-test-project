@@ -1,17 +1,21 @@
 /**
  * @section siteCopyright
  */
-.l-siteCopyright {
-  color: #464646;
-  font: 11px $Inter;
-}
-.b-siteCopyright {
-  margin: 15px 0;
-  @include first-last-margin;
 
-  &__link {
-    @include hover-underline;
-    color: inherit;
+.b-siteCopyright {
+  @include wrapper-inner;
+  text-align: center;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1.75;
+  color: rgba(255, 255, 255, 0.490429);
+  text-transform: uppercase;
+  padding-top: 19px;
+  padding-bottom: 20px; 
+  border-top: 1px solid rgba(100%, 100%, 100%, 0.31);
+
+  &__BoldText {
+    color:#FFFFFF;
   }
 }
 

@@ -1,0 +1,23 @@
+.b-siteQuickLinks {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 2;
+    color: #FFFFFF;
+
+        &__h3 {
+        font-weight: 700;
+        font-size: 21px;
+        line-height: 1;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        margin-top: 0px;
+            margin-bottom: 17px;
+        }
+
+        &__link {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 2;
+            color: #FFFFFF;
+        }
+}

@@ -30,21 +30,33 @@
 @import 'blocks/b-siteLogo';
 @import 'blocks/b-siteSearch';
 @import 'blocks/b-mainNavigation';
-@import 'blocks/b-siteFooter';
 @import 'blocks/b-bottomNavigation';
 @import 'blocks/b-siteCopyright';
 @import 'blocks/b-developerCopyright';
 @import 'blocks/b-categoryList';
 @import 'blocks/b-contentCategories';
-@import 'blocks/l-contentNews';
 @import 'blocks/b-contentArticles';
 @import 'blocks/b-contentEvents';
-@import 'blocks/l-contentLeftColumn';
-@import 'blocks/l-contentRightColumn';
-@import 'blocks/l-siteFooterBlock';
 @import 'blocks/b-siteAdress';
 @import 'blocks/b-siteContacts';
 @import 'blocks/b-siteQuickLinks';
+@import 'blocks/b-firstScreen';
+@import 'blocks/b-contentText';
+@import 'blocks/b-siteFooterBlock';
+@import 'blocks/b-contentNews';
+@import 'blocks/b-contentRightColumn';
+@import 'blocks/b-contentLeftColumn';
+
+@import 'blocks/l-siteHeader';
+@import 'blocks/l-firstScreen';
+@import 'blocks/l-contentCatigories';
+@import 'blocks/l-contentNews';
+@import 'blocks/l-siteFooter';
+@import 'blocks/l-siteLogo';
+
+
+@import 'blocks/l-wrapper';
+
 
 /**
  * Print styles

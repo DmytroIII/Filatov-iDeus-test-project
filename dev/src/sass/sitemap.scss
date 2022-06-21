@@ -64,19 +64,7 @@ $site-width: 980px;
 /**
 * @section siteLogo
 */
-.l-siteLogo {
-  overflow: hidden;
 
-  .l-body.-type_ideus & {
-    width: 131px;
-    height: 47px;
-  }
-
-  .l-body.-type_netcraft & {
-    width: 266px;
-    height: 50px;
-  }
-}
 .b-siteLogo {
   margin: 0;
   padding: 0;

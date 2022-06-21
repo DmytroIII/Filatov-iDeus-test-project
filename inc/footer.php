@@ -1,27 +1,31 @@
   <!--content-->
 
-  <footer class="b-siteFooter">
-    <div class="l-siteFooterBlock">
+  <footer class="l-siteFooter">
+    <div class="b-siteFooterBlock">
       <div class="b-siteAdress">
-        <h3 class="b-siteAdress_h3">Adresse</h3>
-        <div class="b-siteAdress_location">
-          VSV - AUPS </br>
-          Bärengasse 22</br>
-          8001 Zürich
+        <h3 class="b-siteAdress__h3">Adresse</h3>
+        <div class="b-siteAdress__box">
+          <img src="/assets/img/blocks/icons/local.png" class="b-siteAdress__png" width="9.98" height="14" />
+          <div class="b-siteAdress__location">
+            VSV - AUPS
+            Bärengasse 22
+            8001 Zürich
+          </div>
         </div>
       </div>
       <div class="b-siteContacts">
         <h3 class="b-siteContacts__h3">Kontakt</h3>
-        <div class="b-siteContacts__mail">office@vhs.ch</div>
-        <div class="b-siteContacts__phone"> +41 44 211 97 71</div>
-        <div class="b-siteContacts__fax">+41 44 211 97 72</div>
+        <div class="b-siteContacts__mail"><img src="/assets/img/blocks/icons/mail.png" class="b-siteContacts__png" width=" 13.98" height="9.96" /><a href="mailto:test@mail.com" class="b-siteContacts__link">office@vhs.ch</a></div>
+        <div class="b-siteContacts__phone"> <img src="/assets/img/blocks/icons/phone.png" class="b-siteContacts__png" width="14" height="14" /><a href="tel:+41442119771" class="b-siteContacts__link">+41 44 211 97 71</a></div>
+        <div class="b-siteContacts__fax"><img src="/assets/img/blocks/icons/fax.png" class="b-siteContacts__png" width="14" height="13" /><a href="tel:+41442119772" class="b-siteContacts__link">+41 44 211 97 72</a></div>
       </div>
       <div class="b-siteQuickLinks">
         <h3 class="b-siteQuickLinks__h3">Quick Links</h3>
-        <div class="b-siteQuickLinks__link">Mitglied werden</div>
-        <div class="b-siteQuickLinks__link">Statuten</div>
-        <div class="b-siteQuickLinks__link">Newsletter abonnieren</div>
+        <div class="b-siteQuickLinks__list"><a href="#" class="b-siteQuickLinks__link">Mitglied werden</a></div>
+        <div class="b-siteQuickLinks__list"><a href="#" class="b-siteQuickLinks__link">Statuten</a></div>
+        <div class="b-siteQuickLinks__list"><a href="#" class="b-siteQuickLinks__link">Newsletter abonnieren</a></div>
       </div>
+
     </div>
     <div class="b-siteCopyright">
       <span class="b-siteCopyright__BoldText">

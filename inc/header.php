@@ -34,17 +34,18 @@ $title = $isHomepage ? $siteName : $pageName . ' : ' . $siteName;
 
 <body class="l-body -page_<?php echo $uri; ?><?php echo (!$isHomepage) ? ' -page_inner' : ''; ?>">
 
-  <div class="l-wrapper">
-    <header class="l-siteHeader">
-      <div class="b-siteHeader">
-
-        <div class="l-siteLogo">
-
-        </div>
-
-        <nav class="l-mainNavigation">
-
-        </nav>
+  <header class="l-siteHeader">
+    <div class="b-siteHeader">
+      <div class="l-siteLogo">
+        <img class="l-siteLogo__png" src="/assets/img/blocks/siteLogo/Logo.png" width="" height="" alt="logo">
       </div>
-    </header>
-  </div>
+      <nav class="l-mainNavigation">
+
+        <ul class="b-mainNavigation">
+          <li class="b-mainNavigation__list"><a href="#" class="b-mainNavigation__link">Kurse</a></li>
+          <li class="b-mainNavigation__list"><a href="#" class="b-mainNavigation__link">Verband</a></li>
+          <li class="b-mainNavigation__list"><a href="#" class="b-mainNavigation__link">Grundkompetenzen</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>

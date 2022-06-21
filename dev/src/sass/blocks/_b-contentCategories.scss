@@ -1,79 +1,79 @@
-
-
-
 .b-contentCategories {
     display: flex;
     flex-wrap: wrap;
+    padding-top: 80px;
+    padding-bottom: 90px;
     @include wrapper-inner;
-
+    list-style-type: none;
 
     &__text {
-    margin-top: 28px;
-    margin-left: 63px;
+        margin-top: 28px;
+        margin-left: 63px;
+        font-weight: 500;
+        font-size: 21px;
+        line-height: 1.19;
+        color:#27272E;
     }
 
+
     &__list {
-    background-color: #F2FAFE;
-    margin-right: 20px;
-    margin-bottom: 20px;
+        background-color: #F2FAFE;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        width: 218px;
+        height: 80px;
     }
 
     &__list:nth-child(5n) {
         margin-right: 0px;
-     }
+    }
 
     &__link {
-    display: flex;
-    background-color: #F2FAFE;
-    width: 218px;
-    height: 80px;
-    border-radius: 5px;
-    color: #27272E;
-    border: 1px solid #18B0B6;
+        display: flex;
+        background-color: #F2FAFE;
+        width: 218px;
+        height: 80px;
+        border-radius: 5px;
+        border: 1px solid #18B0B6;
+        text-decoration: none;
     }
 
     &__link:hover {
-    display: flex;
-    background: linear-gradient(180deg, #AF68C2 0%, #89429C 100%);
-    border-radius: 5px;
-    color: #FFFFFF;
-    width: 218px;
-    height: 80px;
-    border-color: transparent;
+        display: flex;
+        background: linear-gradient(180deg, #AF68C2 0%, #89429C 100%);
+        border-radius: 5px;
+        color: #FFFFFF;
+        width: 218px;
+        height: 80px;
+        border-color: transparent;
     }
 
-
-
-
     &__link &__img {
-    position: absolute;
-    opacity: 1;
-    margin-left: 25px;
-    margin-top: 26px;
+        position: absolute;
+        opacity: 1;
+        margin-left: 25px;
+        margin-top: 26px;
     }
 
     &__link &__imgHover {
-    position: absolute;
-    opacity: 0;
-    margin-left: 25px;
-    margin-top: 26px;
+        position: absolute;
+        opacity: 0;
+        margin-left: 25px;
+        margin-top: 26px;
     }
 
-    
     &__link:hover &__img {
-    position: absolute;
-    opacity: 0;
-    margin-left: 25px;
-    margin-top: 26px;
+        position: absolute;
+        opacity: 0;
+        margin-left: 25px;
+        margin-top: 26px;
+
     }
 
     &__link:hover &__imgHover {
-    position: absolute;
-    opacity: 1;
-    margin-left: 25px;
-    margin-top: 26px;
+        position: absolute;
+        opacity: 1;
+        margin-left: 25px;
+        margin-top: 26px;
     }
 }
-
-
-
