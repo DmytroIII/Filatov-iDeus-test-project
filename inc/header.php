@@ -37,7 +37,7 @@ $title = $isHomepage ? $siteName : $pageName . ' : ' . $siteName;
   <header class="l-siteHeader">
     <div class="b-siteHeader">
       <div class="l-siteLogo">
-        <img class="l-siteLogo__png" src="/assets/img/blocks/siteLogo/Logo.png" width="" height="" alt="logo">
+        <img class="l-siteLogo__logo" src="/assets/img/blocks/siteLogo/Logo.png" width="" height="" alt="logo">
       </div>
       <nav class="l-mainNavigation">
 

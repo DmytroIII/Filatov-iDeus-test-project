@@ -3,9 +3,9 @@
   <footer class="l-siteFooter">
     <div class="b-siteFooterBlock">
       <div class="b-siteAdress">
-        <h3 class="b-siteAdress__h3">Adresse</h3>
+        <h3 class="b-siteAdress__title">Adresse</h3>
         <div class="b-siteAdress__box">
-          <img src="/assets/img/blocks/icons/local.png" class="b-siteAdress__png" width="9.98" height="14" />
+          <img src="/assets/img/blocks/icons/local.png" class="b-siteAdress__icon" />
           <div class="b-siteAdress__location">
             VSV - AUPS
             Bärengasse 22
@@ -13,17 +13,30 @@
           </div>
         </div>
       </div>
+
       <div class="b-siteContacts">
-        <h3 class="b-siteContacts__h3">Kontakt</h3>
-        <div class="b-siteContacts__mail"><img src="/assets/img/blocks/icons/mail.png" class="b-siteContacts__png" width=" 13.98" height="9.96" /><a href="mailto:test@mail.com" class="b-siteContacts__link">office@vhs.ch</a></div>
-        <div class="b-siteContacts__phone"> <img src="/assets/img/blocks/icons/phone.png" class="b-siteContacts__png" width="14" height="14" /><a href="tel:+41442119771" class="b-siteContacts__link">+41 44 211 97 71</a></div>
-        <div class="b-siteContacts__fax"><img src="/assets/img/blocks/icons/fax.png" class="b-siteContacts__png" width="14" height="13" /><a href="tel:+41442119772" class="b-siteContacts__link">+41 44 211 97 72</a></div>
+        <h3 class="b-siteContacts__title">Kontakt</h3>
+        <ul class="b-siteContacts__list">
+
+          <li class="b-siteContacts__item"><img src="/assets/img/blocks/icons/mail.png" class="b-siteContacts__icon" /><a href="mailto:test@mail.com" class="b-siteContacts__link">office@vhs.ch</a>
+          </li>
+          <li class="b-siteContacts__item"> <img src="/assets/img/blocks/icons/phone.png" class="b-siteContacts__icon" /><a href="tel:41442119771" class="b-siteContacts__link">+41 44 211 97 71</a>
+          </li>
+          <li class="b-siteContacts__item"><img src="/assets/img/blocks/icons/fax.png" class="b-siteContacts__icon" /><a href="tel:41442119772" class="b-siteContacts__link">+41 44 211 97 72</a>
+          </li>
+        </ul>
       </div>
+
       <div class="b-siteQuickLinks">
-        <h3 class="b-siteQuickLinks__h3">Quick Links</h3>
-        <div class="b-siteQuickLinks__list"><a href="#" class="b-siteQuickLinks__link">Mitglied werden</a></div>
-        <div class="b-siteQuickLinks__list"><a href="#" class="b-siteQuickLinks__link">Statuten</a></div>
-        <div class="b-siteQuickLinks__list"><a href="#" class="b-siteQuickLinks__link">Newsletter abonnieren</a></div>
+        <h3 class="b-siteQuickLinks__title">Quick Links</h3>
+        <ul class="b-siteQuickLinks__list">
+          <li class="b-siteQuickLinks__item"><a href="#" class="b-siteQuickLinks__link">Mitglied werden</a>
+          </li>
+          <li class="b-siteQuickLinks__item"><a href="#" class="b-siteQuickLinks__link">Statuten</a>
+          </li>
+          <li class="b-siteQuickLinks__item"><a href="#" class="b-siteQuickLinks__link">Newsletter abonnieren</a>
+          </li>
+        </ul>
       </div>
 
     </div>

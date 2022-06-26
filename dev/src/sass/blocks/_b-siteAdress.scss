@@ -5,7 +5,7 @@
     color: #FFFFFF;
     margin-right:249px;
 
-    &__h3 {
+    &__title {
         font-weight: 700;
         font-size: 21px;
         line-height: 1;
@@ -22,9 +22,10 @@
     &__box {
        display: flex;
     }
-        &__png {
+        &__icon {
             margin-right: 15px;
             padding-top: 10px;
+            max-height: 14px;
         }
 }
 

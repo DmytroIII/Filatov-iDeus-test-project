@@ -5,7 +5,7 @@
     color: #FFFFFF;
     margin-right: 231px;
 
-    &__h3 {
+    &__title {
         font-weight: 700;
         font-size: 21px;
         line-height: 1;
@@ -15,12 +15,23 @@
         margin-bottom: 17px;
         }
 
-    &__png {
+    &__icon {
          margin-right: 15px;
      }
 
     &__link {
         color: #FFFFFF;
         text-decoration: none;
+    }
+
+    &__list {
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+    }
+            
+    &__item {
+        margin: 0px;
+        padding: 0px;
     }
 }

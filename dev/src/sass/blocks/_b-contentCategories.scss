@@ -48,21 +48,21 @@
         border-color: transparent;
     }
 
-    &__link &__img {
+    &__link &__icon {
         position: absolute;
         opacity: 1;
         margin-left: 25px;
         margin-top: 26px;
     }
 
-    &__link &__imgHover {
+    &__link &__iconHover {
         position: absolute;
         opacity: 0;
         margin-left: 25px;
         margin-top: 26px;
     }
 
-    &__link:hover &__img {
+    &__link:hover &__icon {
         position: absolute;
         opacity: 0;
         margin-left: 25px;
@@ -70,7 +70,7 @@
 
     }
 
-    &__link:hover &__imgHover {
+    &__link:hover &__iconHover {
         position: absolute;
         opacity: 1;
         margin-left: 25px;
