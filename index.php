@@ -103,135 +103,157 @@ require('inc/header.php');
 </div>
 <div class="l-contentNews">
     <div class="b-contentNews">
-        <div class="b-contentLeftColumn">
-            <h2 class="b-contentLeftColumn__title">Kommende Veranstaltungen</h2>
 
-            <div class="b-contentEvents">
-                <span class="b-contentEvents__data">Di 19.10.2021 08:30</span>
-                <h3 class="b-contentEvents__title">214-41711 Deutsch als Fremdsprache B2/1 - Semesterkurs</h3>
-                <div class="b-contentEvents__authorName">
-                    <span class="b-contentEvents__author">Referent/in:</span> Elvira Canova
-                    Volkshochschule Bern
+        <div class="b-contentNews__column">
+            <h2 class="b-contentNews__title">Kommende Veranstaltungen</h2>
+
+            <a class="b-contentEvents__link" href="#">
+                <div class="b-contentEvents">
+                    <span class="b-contentEvents__data">Di 19.10.2021 08:30</span>
+                    <h3 class="b-contentEvents__title">214-41711 Deutsch als Fremdsprache B2/1 - Semesterkurs</h3>
+                    <div class="b-contentEvents__authorName">
+                        <span class="b-contentEvents__author">Referent/in:</span> Elvira Canova </br>
+                        Volkshochschule Bern
+                    </div>
+                    <span class="b-contentEvents__text"> Der Kurs findet 2 x wöchentlich statt und erlaubt Ihnen in einem semi-intensiven Lerntempo voranzukommen. Nut... </span>
                 </div>
-                <div class="b-contentEvents__text">Der Kurs findet 2 x wöchentlich statt und erlaubt Ihnen in einem semi-intensiven Lerntempo voranzukommen. Nut...</div>
-            </div>
+            </a>
 
-            <div class="b-contentEvents">
-                <span class="b-contentEvents__data">Di 19.10.2021 08:30</span>
-                <h3 class="b-contentEvents__title">21-2-4601 Blockflötenorchester der Volkshochschule Region Thun</h3>
-                <div class="b-contentEvents__authorName">
-                    <span class="b-contentEvents__author">Referent/in:</span> Elvira Canova
-                    Volkshochschule Bern
+            <a class="b-contentEvents__link" href="#">
+                <div class="b-contentEvents">
+                    <span class="b-contentEvents__data">Di 19.10.2021 08:30</span>
+                    <h3 class="b-contentEvents__title">21-2-4601 Blockflötenorchester der Volkshochschule Region Thun</h3>
+                    <div class="b-contentEvents__authorName">
+                        <span class="b-contentEvents__author">Referent/in:</span> Elvira Canova </br>
+                        Volkshochschule Bern
+                    </div>
+                    <span class="b-contentEvents__text"> Der Kurs findet 2 x wöchentlich statt und erlaubt Ihnen in einem semi-intensiven Lerntempo voranzukommen. Nut... </span>
                 </div>
-                <div class="b-contentEvents__text">Der Kurs findet 2 x wöchentlich statt und erlaubt Ihnen in einem semi-intensiven Lerntempo voranzukommen. Nut...</div>
-            </div>
+            </a>
 
-            <div class="b-contentEvents">
-                <span class="b-contentEvents__data">Di 19.10.2021 08:30</span>
-                <h3 class="b-contentEvents__title">21W-4410 C1/C2: Englische Lektüre</h3>
-                <div class="b-contentEvents__authorName">
-                    <span class="b-contentEvents__author">Referent/in:</span> Elvira Canova
-                    Volkshochschule Bern
+            <a class="b-contentEvents__link" href="#">
+                <div class="b-contentEvents">
+                    <span class="b-contentEvents__data">Di 19.10.2021 08:30</span>
+                    <h3 class="b-contentEvents__title">21W-4410 C1/C2: Englische Lektüre</h3>
+                    <div class="b-contentEvents__authorName">
+                        <span class="b-contentEvents__author">Referent/in:</span> Elvira Canova </br>
+                        Volkshochschule Bern
+                    </div>
+                    <span class="b-contentEvents__text">Der Kurs findet 2 x wöchentlich statt und erlaubt Ihnen in einem semi-intensiven Lerntempo voranzukommen. Nut...</span>
                 </div>
-                <div class="b-contentEvents__text">Der Kurs findet 2 x wöchentlich statt und erlaubt Ihnen in einem semi-intensiven Lerntempo voranzukommen. Nut...</div>
-            </div>
+            </a>
 
-            <div class="b-contentEvents">
-                <span class="b-contentEvents__data">Di 19.10.2021 08:30</span>
-                <h3 class="b-contentEvents__title">21W-626 AROHA – ein einfaches Tanz-Workout</h3>
-                <div class="b-contentEvents__authorName">
-                    <span class="b-contentEvents__author">Referent/in:</span> Elvira Canova
-                    Volkshochschule Bern
+            <a class="b-contentEvents__link" href="#">
+                <div class="b-contentEvents">
+                    <span class="b-contentEvents__data">Di 19.10.2021 08:30</span>
+                    <h3 class="b-contentEvents__title">21W-626 AROHA – ein einfaches Tanz-Workout</h3>
+                    <div class="b-contentEvents__authorName">
+                        <span class="b-contentEvents__author">Referent/in:</span> Elvira Canova </br>
+                        Volkshochschule Bern
+                    </div>
+                    <span class="b-contentEvents__text">Der Kurs findet 2 x wöchentlich statt und erlaubt Ihnen in einem semi-intensiven Lerntempo voranzukommen. Nut...</span>
                 </div>
-                <div class="b-contentEvents__text">Der Kurs findet 2 x wöchentlich statt und erlaubt Ihnen in einem semi-intensiven Lerntempo voranzukommen. Nut...</div>
-            </div>
+            </a>
 
-            <div class="b-contentEvents">
-                <span class="b-contentEvents__data">Di 19.10.2021 08:30</span>
-                <h3 class="b-contentEvents__title">21W-4516-2 C1: Spanisch</h3>
-                <div class="b-contentEvents__authorName">
-                    <span class="b-contentEvents__author">Referent/in:</span> Elvira Canova
-                    Volkshochschule Bern
+            <a class="b-contentEvents__link" href="#">
+                <div class="b-contentEvents">
+                    <span class="b-contentEvents__data">Di 19.10.2021 08:30</span>
+                    <h3 class="b-contentEvents__title">21W-4516-2 C1: Spanisch</h3>
+                    <div class="b-contentEvents__authorName">
+                        <span class="b-contentEvents__author">Referent/in:</span> Elvira Canova </br>
+                        Volkshochschule Bern
+                    </div>
+                    <span class="b-contentEvents__text">Der Kurs findet 2 x wöchentlich statt und erlaubt Ihnen in einem semi-intensiven Lerntempo voranzukommen. Nut...</span>
                 </div>
-                <div class="b-contentEvents__text">Der Kurs findet 2 x wöchentlich statt und erlaubt Ihnen in einem semi-intensiven Lerntempo voranzukommen. Nut...</div>
-            </div>
+            </a>
 
-            <div class="b-contentEvents">
-                <span class="b-contentEvents__data">Di 19.10.2021 08:30</span>
-                <h3 class="b-contentEvents__title">214-41711 Deutsch als Fremdsprache B2/1 - Semesterkurs</h3>
-                <div class="b-contentEvents__authorName">
-                    <span class="b-contentEvents__author">Referent/in:</span> Elvira Canova
-                    Volkshochschule Bern
+            <a class="b-contentEvents__link" href="#">
+                <div class="b-contentEvents">
+                    <span class="b-contentEvents__data">Di 19.10.2021 08:30</span>
+                    <h3 class="b-contentEvents__title">214-41711 Deutsch als Fremdsprache B2/1 - Semesterkurs</h3>
+                    <div class="b-contentEvents__authorName">
+                        <span class="b-contentEvents__author">Referent/in:</span> Elvira Canova </br>
+                        Volkshochschule Bern
+                    </div>
+                    <span class="b-contentEvents__text">Der Kurs findet 2 x wöchentlich statt und erlaubt Ihnen in einem semi-intensiven Lerntempo voranzukommen. Nut...</span>
                 </div>
-                <div class="b-contentEvents__text">Der Kurs findet 2 x wöchentlich statt und erlaubt Ihnen in einem semi-intensiven Lerntempo voranzukommen. Nut...</div>
-            </div>
+            </a>
 
 
-            <div class="b-contentEvents">
-                <span class="b-contentEvents__data">Di 19.10.2021 08:30</span>
-                <h3 class="b-contentEvents__title">21-2-4601 Blockflötenorchester der Volkshochschule Region Thun</h3>
-                <div class="b-contentEvents__authorName">
-                    <span class="b-contentEvents__author">Referent/in:</span> Elvira Canova
-                    Volkshochschule Bern
+            <a class="b-contentEvents__link" href="#">
+                <div class="b-contentEvents">
+                    <span class="b-contentEvents__data">Di 19.10.2021 08:30</span>
+                    <h3 class="b-contentEvents__title">21-2-4601 Blockflötenorchester der Volkshochschule Region Thun</h3>
+                    <div class="b-contentEvents__authorName">
+                        <span class="b-contentEvents__author">Referent/in:</span> Elvira Canova </br>
+                        Volkshochschule Bern
+                    </div>
+                    <span class="b-contentEvents__text">Der Kurs findet 2 x wöchentlich statt und erlaubt Ihnen in einem semi-intensiven Lerntempo voranzukommen. Nut...</span>
                 </div>
-                <div class="b-contentEvents__text">Der Kurs findet 2 x wöchentlich statt und erlaubt Ihnen in einem semi-intensiven Lerntempo voranzukommen. Nut...</div>
-            </div>
-
+            </a>
 
 
         </div>
 
-        <div class="b-contentRightColumn">
-            <h2 class="b-contentRightColumn__title">Mitteilungen</h2>
+        <div class="b-contentNews__column">
+            <h2 class="b-contentNews__title">Mitteilungen</h2>
 
-            <div class="b-contentArticles">
-                <img class="b-contentArticles__image" src="assets/img/blocks/articlesImage/CoronaSieg.jpg" alt="Corona Sieg" />
-                <div class="b-contentArticles__box">
-                    <h3 class="b-contentArticles__title">Corona - neue Normalität </h3>
-                    <span class="b-contentArticles__data">24.06.2020</span>
+            <a class="b-contentArticles__link" href="#">
+                <div class="b-contentArticles">
+                    <img class="b-contentArticles__image" src="assets/img/blocks/articlesImage/CoronaSieg.jpg" alt="Corona Sieg" />
+                    <div class="b-contentArticles__box">
+                        <h3 class="b-contentArticles__title">Corona - neue Normalität </h3>
+                        <span class="b-contentArticles__data">24.06.2020</span>
+                    </div>
+                    <span class="b-contentArticles__text"> Am 19. Juni hat der Bundesrat weitgehende Lockerungen beschlossen, die vor allem den Weiterbildungsbereich betreffen. Damit kehrt an vielen Schulen so…</span>
                 </div>
-                <div class="b-contentArticles__text">Am 19. Juni hat der Bundesrat weitgehende Lockerungen beschlossen, die vor allem den Weiterbildungsbereich betreffen. Damit kehrt an vielen Schulen so…</div>
-            </div>
+            </a>
 
 
-            <div class="b-contentArticles">
-                <img class="b-contentArticles__image" src="assets/img/blocks/articlesImage/Coroanavirus.jpg" alt="Coroanavirus" />
-                <div class="b-contentArticles__box">
-                    <h3 class="b-contentArticles__title">Schutzkonzepte </h3>
-                    <span class="b-contentArticles__data">24.06.2020</span>
+            <a class="b-contentArticles__link" href="#">
+                <div class="b-contentArticles">
+                    <img class="b-contentArticles__image" src="assets/img/blocks/articlesImage/Coroanavirus.jpg" alt="Coroanavirus" />
+                    <div class="b-contentArticles__box">
+                        <h3 class="b-contentArticles__title">Schutzkonzepte </h3>
+                        <span class="b-contentArticles__data">24.06.2020</span>
+                    </div>
+                    <span class="b-contentArticles__text"> Am 19. Juni hat der Bundesrat weitgehende Lockerungen beschlossen, die vor allem den Weiterbildungsbereich betreffen. Damit kehrt an vielen Schulen so…</span>
                 </div>
-                <div class="b-contentArticles__text">Am 19. Juni hat der Bundesrat weitgehende Lockerungen beschlossen, die vor allem den Weiterbildungsbereich betreffen. Damit kehrt an vielen Schulen so…</div>
-            </div>
+            </a>
 
+            <a class="b-contentArticles__link" href="#">
+                <div class="b-contentArticles">
+                    <img class="b-contentArticles__image" src="assets/img/blocks/articlesImage/virus.jpg" alt="Virus" />
+                    <div class="b-contentArticles__box">
+                        <h3 class="b-contentArticles__title">Schutzkonzepte</h3>
+                        <span class="b-contentArticles__data">24.06.2020</span>
+                    </div>
+                    <span class="b-contentArticles__text"> Am 19. Juni hat der Bundesrat weitgehende Lockerungen beschlossen, die vor allem den Weiterbildungsbereich betreffen. Damit kehrt an vielen Schulen so…</span>
 
-            <div class="b-contentArticles">
-                <img class="b-contentArticles__image" src="assets/img/blocks/articlesImage/virus.jpg" alt="Virus" />
-                <div class="b-contentArticles__box">
-                    <h3 class="b-contentArticles__title">Schutzkonzepte</h3>
-                    <span class="b-contentArticles__data">24.06.2020</span>
                 </div>
-                <div class="b-contentArticles__text">Am 19. Juni hat der Bundesrat weitgehende Lockerungen beschlossen, die vor allem den Weiterbildungsbereich betreffen. Damit kehrt an vielen Schulen so…</div>
-            </div>
+            </a>
 
-
-            <div class="b-contentArticles">
-                <img class="b-contentArticles__image" src="assets/img/blocks/articlesImage/terms.jpg" alt="Terms" />
-                <div class="b-contentArticles__box">
-                    <h3 class="b-contentArticles__title">Corona: Forderungen des SVEB </h3>
-                    <span class="b-contentArticles__data">24.06.2020</span>
+            <a class="b-contentArticles__link" href="#">
+                <div class="b-contentArticles">
+                    <img class="b-contentArticles__image" src="assets/img/blocks/articlesImage/terms.jpg" alt="Terms" />
+                    <div class="b-contentArticles__box">
+                        <h3 class="b-contentArticles__title">Corona: Forderungen des SVEB </h3>
+                        <span class="b-contentArticles__data">24.06.2020</span>
+                    </div>
+                    <span class="b-contentArticles__text"> Am 19. Juni hat der Bundesrat weitgehende Lockerungen beschlossen, die vor allem den Weiterbildungsbereich betreffen. Damit kehrt an vielen Schulen so…</span>
                 </div>
-                <div class="b-contentArticles__text">Am 19. Juni hat der Bundesrat weitgehende Lockerungen beschlossen, die vor allem den Weiterbildungsbereich betreffen. Damit kehrt an vielen Schulen so…</div>
-            </div>
+            </a>
 
-
-            <div class="b-contentArticles">
-                <img class="b-contentArticles__image" src="assets/img/blocks/articlesImage/CoronaSieg.jpg" alt="Corona Sieg" />
-                <div class="b-contentArticles__box">
-                    <h3 class="b-contentArticles__title">Corona - neue Normalität</h3>
-                    <span class="b-contentArticles__data">24.06.2020</span>
+            <a class="b-contentArticles__link" href="#">
+                <div class="b-contentArticles">
+                    <img class="b-contentArticles__image" src="assets/img/blocks/articlesImage/CoronaSieg.jpg" alt="Corona Sieg" />
+                    <div class="b-contentArticles__box">
+                        <h3 class="b-contentArticles__title">Corona - neue Normalität</h3>
+                        <span class="b-contentArticles__data">24.06.2020</span>
+                    </div>
+                    <span class="b-contentArticles__text">Am 19. Juni hat der Bundesrat weitgehende Lockerungen beschlossen, die vor allem den Weiterbildungsbereich betreffen. Damit kehrt an vielen Schulen so…</span>
                 </div>
-                <div class="b-contentArticles__text">Am 19. Juni hat der Bundesrat weitgehende Lockerungen beschlossen, die vor allem den Weiterbildungsbereich betreffen. Damit kehrt an vielen Schulen so…</div>
-            </div>
+            </a>
 
         </div>
     </div>

@@ -37,7 +37,10 @@
         line-height: 1.44;
         color: #515050;
         max-width: 500px;
-    
     }
+
+                &__link {
+                    text-decoration: none;
+                }
 
 }
