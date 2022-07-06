@@ -39,8 +39,15 @@
         max-width: 500px;
     }
 
-                &__link {
-                    text-decoration: none;
-                }
+    &__link {
+        text-decoration: none;
+    }
+
+    &__image {
+        display:block;
+        height: 158px;
+        width: 100%;
+        object-fit: cover;
+    }
 
 }

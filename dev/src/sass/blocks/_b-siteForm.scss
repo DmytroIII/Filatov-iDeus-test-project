@@ -1,0 +1,29 @@
+.b-siteForm {
+    @include wrapper-inner;
+    display: flex;
+    justify-content: center;
+    margin-top: 87px;
+
+    &__input {
+    width: 615px;
+    height: 48px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border:transparent;
+    padding-left: 21px;
+    color: #B5B8B9;
+    }
+
+    &__button {
+    color: #FFFFFF;
+    background:linear-gradient(180deg, #1CD2D6 0%, #18B0B6 100%);    
+    text-transform: uppercase;
+    border-radius: 5px;
+    width: 135px;
+    height: 48px;
+    margin-left:20px;
+    border: transparent;
+    }
+
+
+}

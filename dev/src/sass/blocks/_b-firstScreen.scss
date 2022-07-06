@@ -1,24 +1,17 @@
 .b-firstScreen {
     @include wrapper-inner;
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 1.4;
-    color: #FFFFFF;
-    padding-top:100px;
+    display: flex;
+    justify-content: space-between;
+    padding-top:155px;
 
     &__header {
-       display: flex;
-       justify-content: space-between;
+      max-width: 555px;
+      font-weight: 700;
+      font-size: 30px;
+      line-height: 1.4;
+      color: #FFFFFF;
+      margin: 0px;
+      padding: 0px;
     }
 
-}
-
-.b-firstScreen__textLeft {
-  max-width: 555px;
-
-}
-
-.b-firstScreen__textRight {
-max-width: 532px;
-padding-right: 30px;
 }

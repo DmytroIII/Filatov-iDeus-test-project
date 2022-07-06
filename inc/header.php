@@ -10,7 +10,7 @@ $isHomepage = (basename($_SERVER['PHP_SELF']) == 'index.php');
 $title = $isHomepage ? $siteName : $pageName . ' : ' . $siteName;
 ?>
 <!doctype html>
-<html class="l-html" lang="">
+<html class="l-html" lang="de">
 
 <head>
   <meta charset="utf-8" />
@@ -40,11 +40,10 @@ $title = $isHomepage ? $siteName : $pageName . ' : ' . $siteName;
         <img class="l-siteLogo__logo" src="/assets/img/blocks/siteLogo/Logo.png" width="" height="" alt="logo">
       </div>
       <nav class="l-mainNavigation">
-
         <ul class="b-mainNavigation">
-          <li class="b-mainNavigation__list"><a href="#" class="b-mainNavigation__link">Kurse</a></li>
-          <li class="b-mainNavigation__list"><a href="#" class="b-mainNavigation__link">Verband</a></li>
-          <li class="b-mainNavigation__list"><a href="#" class="b-mainNavigation__link">Grundkompetenzen</a></li>
+          <li class="b-mainNavigation__item hvr-underline-from-left"><a href="#" class="b-mainNavigation__link">Kurse</a></li>
+          <li class="b-mainNavigation__item hvr-underline-from-left"><a href="#" class="b-mainNavigation__link">Verband</a></li>
+          <li class="b-mainNavigation__item hvr-underline-from-left"><a href="#" class="b-mainNavigation__link">Grundkompetenzen</a></li>
         </ul>
       </nav>
     </div>
