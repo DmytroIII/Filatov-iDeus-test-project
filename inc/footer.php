@@ -18,11 +18,11 @@
         <h3 class="b-siteContacts__title">Kontakt</h3>
         <ul class="b-siteContacts__list">
 
-          <li class="b-siteContacts__item"><img src="/assets/img/blocks/icons/mail.png" class="b-siteContacts__icon" /><a href="mailto:test@mail.com" class="b-siteContacts__link">office@vhs.ch</a>
+          <li class="b-siteContacts__item"><img src="/assets/img/blocks/icons/mail.png" class="b-siteContacts__icon" /><a href="mailto:test@mail.com" class="b-siteContacts__link hvr-underline-from-left">office@vhs.ch</a>
           </li>
-          <li class="b-siteContacts__item"> <img src="/assets/img/blocks/icons/phone.png" class="b-siteContacts__icon" /><a href="tel:41442119771" class="b-siteContacts__link">+41 44 211 97 71</a>
+          <li class="b-siteContacts__item"><img src="/assets/img/blocks/icons/phone.png" class="b-siteContacts__icon" /><a href="tel:41442119771" class="b-siteContacts__link hvr-underline-from-left">+41 44 211 97 71</a>
           </li>
-          <li class="b-siteContacts__item"><img src="/assets/img/blocks/icons/fax.png" class="b-siteContacts__icon" /><a href="tel:41442119772" class="b-siteContacts__link">+41 44 211 97 72</a>
+          <li class="b-siteContacts__item"><img src="/assets/img/blocks/icons/fax.png" class="b-siteContacts__icon" /><a href="tel:41442119772" class="b-siteContacts__link hvr-underline-from-left">+41 44 211 97 72</a>
           </li>
         </ul>
       </div>

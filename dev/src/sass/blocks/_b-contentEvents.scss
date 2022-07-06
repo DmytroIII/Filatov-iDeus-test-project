@@ -5,6 +5,10 @@
     border-radius: 7px;
     margin-bottom: 20px;
 
+    &:hover{
+        box-shadow: 0px 1px 1px RGB(0 0 0 / 12%), 0px 4px 4px RGB(0 0 0 / 6%), 1px 4px 6px RGB(0 0 0 / 16%);
+    }
+
     &__data {
     font-weight: 500;
     font-size: 14px;
@@ -47,5 +51,6 @@
 
         &__link {
         text-decoration: none;
-        }
+    }
+
 }
