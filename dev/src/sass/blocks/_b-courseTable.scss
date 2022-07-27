@@ -1,0 +1,37 @@
+
+.b-courseTable {
+padding: 38px 34px 38px 40px;
+box-shadow: 0px 6px 20px rgba(214, 214, 214, 0.284167);
+border-radius: 7px;
+background-color: #FFFFFF;
+
+
+   &__cell {
+   border: 1px solid #DEE5EC;
+   border-spacing:0px;
+   margin: 0px;  
+   }
+
+   &__title {
+    display:flex;
+   }
+   &__icon {
+   object-fit: none;
+    }
+
+    &__subtitle {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.31;
+    color: #262626;
+    }
+
+    &__text {
+    display: flex;
+    color:#18B0B6;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.44;
+    text-transform: uppercase;
+    }
+}

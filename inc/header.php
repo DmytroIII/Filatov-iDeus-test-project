@@ -37,12 +37,12 @@ $title = $isHomepage ? $siteName : $pageName . ' : ' . $siteName;
   <header class="l-siteHeader">
     <div class="b-siteHeader">
       <div class="l-siteLogo">
-        <img class="l-siteLogo__logo" src="/assets/img/blocks/siteLogo/Logo.png" width="" height="" alt="logo">
+        <a class="l-siteLogo__link" href="/index.php"><img class="l-siteLogo__logo" src="/assets/img/blocks/siteLogo/Logo.png" width="" height="" alt="logo"></a>
       </div>
       <nav class="l-mainNavigation">
         <ul class="b-mainNavigation">
-          <li class="b-mainNavigation__item hvr-underline-from-left"><a href="#" class="b-mainNavigation__link">Kurse</a></li>
-          <li class="b-mainNavigation__item hvr-underline-from-left"><a href="#" class="b-mainNavigation__link">Verband</a></li>
+          <li class="b-mainNavigation__item hvr-underline-from-left"><a href="/page-1.php" class="b-mainNavigation__link">Kurse</a></li>
+          <li class="b-mainNavigation__item hvr-underline-from-left"><a href="/page-2.php" class="b-mainNavigation__link">Verband</a></li>
           <li class="b-mainNavigation__item hvr-underline-from-left"><a href="#" class="b-mainNavigation__link">Grundkompetenzen</a></li>
         </ul>
       </nav>
